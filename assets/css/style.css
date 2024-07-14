@@ -190,6 +190,7 @@ body {
 }
 .dna .content {
   display: flex;
+  margin-top: 20px;
 }
 .dna .content h4 {
   font-family: var(--secondary-font);
@@ -208,7 +209,7 @@ body {
 .dna .content .img_portion img {
   width: 100%;
 }
-.dna p {
+.dna .content p {
   font-family: var(--primary-font);
   text-align: left;
   padding: 8px 319px 8px 0px;
@@ -458,15 +459,165 @@ body {
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+  .primary_button {
+    display: none;
+  }
   .banner .content h2 {
     padding-right: 0%;
-    font-size: 22px;
+    font-size: 30px;
   }
   .navbar-brand {
     width: 70%;
   }
   .banner {
     background-position: right;
+  }
+  .dna h3 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+  }
+  .dna p {
+    font-family: var(--primary-font);
+    text-align: left;
+    padding: 20px 0;
+    font-size: 13px;
+  }
+  .dna .content p {
+    padding: 0px;
+    font-size: 14px;
+  }
+  .dna .content {
+    flex-direction: column;
+  }
+  .dna .content .content_area {
+    width: 100%;
+  }
+  .dna .content .img_portion {
+    width: 100%;
+    margin-top: 31px;
+  }
+  .dna .content h4 {
+    padding-top: 20px;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .screen .content {
+    flex-direction: column;
+  }
+  .screen .content .img_portion {
+    width: 100%;
+  }
+  .screen .content .content_area {
+    width: 100%;
+    padding-left: 0px;
+    padding-top: 30px;
+  }
+  .screen .content h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .screen p {
+    padding: 8px 0px 8px 0px;
+    font-size: 14px;
+  }
+  .enhance .content {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .enhance .content .content_area {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+  .enhance .content h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  .enhance .content .img_portion {
+    width: 100%;
+  }
+  .enhance p {
+    padding: 3px 0px 3px 0px;
+    font-size: 14px;
+  }
+  .versatile p {
+    padding: 3px 0px 3px 0px;
+    font-size: 14px;
+  }
+  .versatile .content {
+    display: flex;
+    flex-direction: column;
+  }
+  .versatile .content .img_portion {
+    width: 100%;
+  }
+  .versatile .content .content_area {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 0px;
+  }
+  .versatile .content h4 {
+    font-size: 30px;
+  }
+  .technology .content {
+    flex-direction: column;
+  }
+  .technology .content :where(.left, .right) {
+    padding: 20px;
+    width: 100%;
+  }
+  .technology h2 {
+    font-size: 30px;
+  }
+  .technology .content h6 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .technology .content ul li {
+    font-size: 14px;
+    line-height: 34px;
+  }
+  .application p {
+    padding: 0px 0px 0px 30px;
+    font-size: 14px;
+    text-align: left;
+  }
+  .application h3 {
+    font-size: 30px;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .application .content > * {
+    margin-bottom: 20px;
+  }
+  .application .table table tbody tr td {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .application .table table tbody tr th {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .application .table table thead tr th {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .application .table {
+    width: 95%;
+    padding-bottom: 0;
+  }
+  .footer ul li a {
+    font-size: 13px;
+  }
+  .footer ul li {
+    padding: 5px 0;
+  }
+  .footer .left_footer p {
+    font-size: 13px;
   }
 }
 
