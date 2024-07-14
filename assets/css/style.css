@@ -57,6 +57,10 @@ body {
   scroll-behavior: smooth;
 }
 
+.section_padding {
+  padding: 50px 0;
+}
+
 .primary_button {
   background-color: var(--primary-color2);
   border: none;
@@ -65,6 +69,7 @@ body {
   padding: 10px 20px;
   transition: all linear 0.4s;
   color: white;
+  font-family: var(--primary-font);
 }
 .primary_button a {
   color: white;
@@ -73,6 +78,23 @@ body {
 .primary_button:hover {
   background-color: var(--primary-color);
   color: rgb(0, 0, 0);
+}
+
+.secondary_btn {
+  background-color: var(--primary-color);
+  border: none;
+  background-color: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: all linear 0.4s;
+  color: white;
+  font-family: var(--primary-font);
+}
+.secondary_btn a {
+  color: white;
+}
+.secondary_btn:hover {
+  background-color: var(--primary-color2);
 }
 
 /*==================================================
@@ -95,9 +117,9 @@ body {
 ==================================================*/
 .navbar {
   padding: 18px 0;
-  -webkit-box-shadow: 0px 4px 5px 0px rgba(245, 240, 245, 0.57);
-  -moz-box-shadow: 0px 4px 5px 0px rgba(245, 240, 245, 0.57);
-  box-shadow: 0px 4px 5px 0px rgba(245, 240, 245, 0.57);
+  -webkit-box-shadow: 0px 0px 13px 0px rgba(5, 5, 5, 1);
+  -moz-box-shadow: 0px 0px 13px 0px rgba(5, 5, 5, 1);
+  box-shadow: 0px 0px 13px 0px rgba(5, 5, 5, 1);
 }
 .navbar .navbar-brand img {
   width: 80%;
@@ -108,6 +130,284 @@ body {
 .navbar .navbar-nav {
   gap: 32px;
 }
+
 /*==================================================
                   banner css start
-  ==================================================*/
+==================================================*/
+
+.banner {
+  height: 100vh;
+  background-image: url(../images/banner_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+.banner .content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  height: 100%;
+  width: 85%;
+  margin: 0 auto;
+  gap: 40px;
+}
+.banner .content h2 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  padding-right: 45%;
+  font-size: 50px;
+}
+.banner .content h2 span {
+  color: var(--primary-color2);
+}
+.banner .content p {
+  font-family: var(--primary-font);
+}
+
+/*==================================================
+                  dna css start
+==================================================*/
+
+.dna h3 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 50px;
+  text-align: center;
+}
+.dna h3 span {
+  color: var(--primary-color2);
+}
+.dna p {
+  font-family: var(--primary-font);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+.dna .content {
+  display: flex;
+}
+.dna .content h4 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.dna .content .content_area {
+  width: 55%;
+  align-self: center;
+}
+.dna .content .img_portion {
+  width: 45%;
+}
+.dna .content .img_portion img {
+  width: 100%;
+}
+.dna p {
+  font-family: var(--primary-font);
+  text-align: left;
+  padding: 8px 319px 8px 0px;
+  font-size: 18px;
+}
+
+/*==================================================
+                  screen css start
+==================================================*/
+
+.screen {
+  background-color: rgba(0, 167, 255, 7%);
+}
+.screen .content {
+  display: flex;
+}
+.screen .content h4 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.screen .content .content_area {
+  width: 55%;
+  align-self: center;
+  padding-left: 120px;
+}
+.screen .content .img_portion {
+  width: 45%;
+}
+.screen .content .img_portion img {
+  width: 100%;
+}
+.screen p {
+  font-family: var(--primary-font);
+  text-align: left;
+  padding: 8px 30px 8px 0px;
+  font-size: 18px;
+}
+
+/*==================================================
+                  enhance css start
+==================================================*/
+
+.enhance .content {
+  display: flex;
+}
+.enhance .content h4 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.enhance .content .content_area {
+  width: 55%;
+  align-self: center;
+  padding-left: 120px;
+}
+.enhance .content .img_portion {
+  width: 45%;
+}
+.enhance .content .img_portion img {
+  width: 100%;
+}
+.enhance p {
+  font-family: var(--primary-font);
+  text-align: left;
+  padding: 8px 150px 8px 0px;
+  font-size: 18px;
+}
+
+/*==================================================
+                  versatile css start
+==================================================*/
+
+.versatile {
+  background-color: rgba(0, 167, 255, 7%);
+}
+.versatile .content {
+  display: flex;
+}
+.versatile .content h4 {
+  font-family: var(--secondary-font);
+  font-weight: 600;
+  color: var(--primary-color);
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+.versatile .content .content_area {
+  width: 55%;
+  align-self: center;
+  padding-left: 120px;
+}
+.versatile .content .img_portion {
+  width: 45%;
+}
+.versatile .content .img_portion img {
+  width: 100%;
+}
+.versatile p {
+  font-family: var(--primary-font);
+  text-align: left;
+  padding: 8px 30px 8px 0px;
+  font-size: 18px;
+}
+
+/*==================================================
+                  technology css start
+==================================================*/
+
+.technology h2 {
+  font-family: var(--secondary-font);
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  padding-bottom: 30px;
+}
+.technology .content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.technology .content :where(.left, .right) {
+  padding: 40px;
+  background-color: white;
+  width: 40%;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.technology .content h6 {
+  font-family: var(--secondary-font);
+  font-size: 28px;
+  font-weight: 700;
+}
+.technology .content ul {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.technology .content ul li {
+  padding-left: 2px;
+  list-style-type: disc;
+  font-family: var(--primary-font);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+/*==================================================
+                  responsive css start
+==================================================*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .banner .content h2 {
+    padding-right: 0%;
+    font-size: 22px;
+  }
+  .navbar-brand {
+    width: 70%;
+  }
+  .banner {
+    background-position: right;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .example {
+    background-color: lightgreen;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .example {
+    background-color: lightcoral;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .example {
+    background-color: lightgoldenrodyellow;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .example {
+    background-color: lightpink;
+  }
+}
+
+/* Extra extra large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .example {
+    background-color: lightcyan;
+  }
+}
