@@ -416,6 +416,43 @@ body {
 }
 
 /*==================================================
+                  footer css start
+==================================================*/
+
+.footer {
+  padding: 80px 0;
+  font-family: var(--primary-font);
+  color: var(--primary-color);
+}
+.footer .logo {
+  width: 80%;
+}
+.footer .logo img {
+  width: 100%;
+}
+.footer ul li:first-child {
+  font-size: 26px;
+}
+.footer ul li {
+  padding: 15px 0;
+  color: var(--primary-color);
+}
+.footer ul li a {
+  color: var(--primary-color);
+  font-weight: 200;
+}
+.footer ul li a:hover {
+  color: var(--primary-color2);
+}
+.footer .left_footer p {
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.footer ul li {
+  padding: 9px 0;
+}
+
+/*==================================================
                   responsive css start
 ==================================================*/
 
